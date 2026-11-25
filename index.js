@@ -1,6 +1,3 @@
-// let character = ["A", "B", "C", "D", "E", "a", "b", "c","d", "e", "-", ".", "!", "*", "@" ]
-
-// let myLeads = ["www.yahoo.com", "www.awesomelead.com", "www.google.com"]
 let myLeads = []
 
 const inputEl = document.getElementById("input-el");
@@ -9,7 +6,6 @@ const ulEl = document.getElementById("ul-el")
 const deleteButtonEl = document.getElementById("delete-btn")
 const tabBtn = document.getElementById("tab-btn")
 
-// localStorage.clear()
 const keysFromLocalStorage = JSON.parse(localStorage.getItem("keys"))
 
 if (keysFromLocalStorage) {
